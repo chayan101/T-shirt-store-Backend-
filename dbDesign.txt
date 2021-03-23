@@ -1,0 +1,6 @@
+create table user (
+userid int(3) auto_increment,
+name varchar(10) unique,
+password varchar(50) unique,
+email varchar(50),
+PRIMARY KEY (userid));
